@@ -20,14 +20,14 @@ if (!is_string($tomosRoot) || trim($tomosRoot) === '') {
 
 return [
     'site' => [
-        'name' => $siteName,
-        'description' => '',
+        'name' => '仮野サイト',
+        'description' => 'Tomosを使ってみたかった',
         'url' => 'https://' . $owner . '.github.io',
         'base_path' => $basePath,
         'language' => 'ja',
     ],
     'theme' => [
-        'name' => 'tomos-minimal',
+        'name' => 'tomos-90s',
     ],
     'paths' => [
         'content_dir' => __DIR__ . '/content',
